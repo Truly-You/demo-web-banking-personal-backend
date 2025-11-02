@@ -1,0 +1,21 @@
+{
+  "name": "naira-bank-personal-backend",
+  "version": "1.0.0",
+  "description": "Backend for Naira Bank Personal Banking with TrulyYou",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "build": "node -c index.js && echo 'Build successful - all syntax checks passed'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "@truly-you/trulyyou-backend-sdk": "^0.1.0-dev"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
